@@ -1,0 +1,9 @@
+<!--pages/mine/mine.wxml-->
+<view class="mine-view">
+  <view class="mine-header">
+    <view class="user-img">
+      <text class="iconfont icon-yonghu"></text>
+    </view>
+    <text class="login">注册登录</text>
+  </view>
+</view>
