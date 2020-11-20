@@ -1,9 +1,16 @@
 <!--pages/mine/mine.wxml-->
 <view class="mine-view">
-  <view class="mine-header">
+  <!-- 登陆注册 -->
+  <view class="mine-top">
     <view class="user-img">
       <text class="iconfont icon-yonghu"></text>
     </view>
-    <text class="login">注册登录</text>
+    <text class="login">登录注册</text>
+  </view>
+  <!-- 积分兑换 -->
+  <view class="mine-header">
+    <view class="integral">
+      <text></text>
+    </view>
   </view>
 </view>

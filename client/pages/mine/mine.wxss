@@ -1,6 +1,17 @@
 /* pages/mine/mine.wxss */
-.mine-header {
+.mine-view {
+  padding: 20rpx 40rpx;
+}
+
+/* 注册登录 */
+.mine-top {
   display: flex;
+  align-items: center;
+}
+.login {
+  font-size: 34rpx;
+  margin-left: 30rpx;
+  color: #333;
 }
 .user-img {
   width: 100rpx;
@@ -14,3 +25,5 @@
   color: #fff;
   font-size: 50rpx;
 }
+
+/* 积分 优惠券 */
