@@ -6,7 +6,18 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    lun:[
+      {imgpic:'../../iconFont/img/lun1.png'},
+      {imgpic:'../../iconFont/img/lun2.png'},
+      {imgpic:'../../iconFont/img/lun3.png'},
+      {imgpic:'../../iconFont/img/lun4.png'}
+    ],
+    acvity:[
+      {id:1,name:'热门课程',imgpic:'../../iconFont/img/ball1.png',contImg:'../../iconFont/img/hot.png'},
+      {id:2,name:'教育头条',imgpic:'../../iconFont/img/ball2.png',contImg:'../../iconFont/img/edu.png'},
+      {id:3,name:'飞翔活动',imgpic:'../../iconFont/img/ball3.png',contImg:'../../iconFont/img/fly.png'},
+      {id:4,name:'咨询教师',imgpic:'../../iconFont/img/ball4.png',contImg:'../../iconFont/img/consult.png'},
+    ]
   },
 
   /**

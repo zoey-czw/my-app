@@ -1,2 +1,23 @@
-<!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<!-- 轮播图 -->
+<view class='lun'>
+  <swiper indicator-dots="{{true}}" class="wrap" indicator-active-color="skyblue"
+        autoplay="{{true}}"  circular="{{true}}">
+        <block wx:for="{{lun}}" wx:key="*this">
+          <swiper-item>
+            <image src='{{item.imgpic}}' class='imgItem'></image>
+          </swiper-item>
+        </block>
+      </swiper>
+</view>
+<!-- 活动分类 -->
+<view>
+  <ul class='list'>
+    <li wx:for="{{acvity}}" wx:key="id" class='item'>
+      <image alt='' src="{{item.imgpic}}" class='itemImg'></image>
+
+      <view class='itemName'>{{item.name}}</view>
+    </li>
+  </ul>
+</view>
+
+
